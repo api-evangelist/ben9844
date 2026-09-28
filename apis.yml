@@ -1,23 +1,49 @@
 aid: ben9844
+
 name: Ben9844
+
 description: 'Ben9844 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
   and added to the network as a stub for full-pipeline profiling.'
+
 url: https://raw.githubusercontent.com/api-evangelist/ben9844/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
+
 x-tier: stub
+
 x-tier-reason: harvest
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/ben9844-hosts.yml
+- type: Vendors
+  url: vendors/ben9844-vendors.yml
+- type: DomainSecurity
+  url: security/ben9844-domain-security.yml
 - type: Website
   url: https://equityzen.com/company/ben9844
+
+apis: []
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 3
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
